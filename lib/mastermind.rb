@@ -1,5 +1,7 @@
-require "mastermind/version"
+require_relative './mastermind/version.rb'
 
 module Mastermind
-  # Your code goes here...
+  CODE_LENGTH = 4
+
+  attr_accessor :CODE_LENGTH
 end
